@@ -1,0 +1,63 @@
+.categories {
+    width: 100%;
+    padding: 0 400px 0 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.category-css, .category-digital, .category-embroidery, .category-lineart {
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.category-frame1 {
+    display: flex;
+}
+
+.category-watercolor {
+    width: 292px;
+    height: 108px;
+    background-color: #70F1E9;
+    margin: 0 5px 5px 0;
+    padding: 10px 20px;
+}
+
+.category-digital {
+    width: 554px;
+    height: 49px;
+    background-color: #E1BAFF;
+    margin: 0 0 5px 5px;
+}
+
+.category-css {
+    width: 278px;
+    height: 49px;
+    background-color: #FF8DA9;
+    margin: 5px;
+}
+
+.category-lineart {
+    width: 266px;
+    height: 49px;
+    background-color: #FFBA8F;
+    margin: 5px 0 5px 5px;
+}
+
+.category-embroidery {
+    width: 854px;
+    height: 42px;
+    background-color: #A6FA92;
+    margin-top: 5px;
+}
+
+.category-frame3 {
+    display: flex;
+}

@@ -1,0 +1,90 @@
+.item-card {
+    background: #FFFBF8;
+    box-shadow: 0 0 20px #FFDEC9;
+    border-radius: 10px;
+    width: 272px;
+    height: 514px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 15px;
+}
+
+.item-card:hover {
+    transition: .4s;
+    transform: scale(1.05);
+}
+
+.item-image {
+    width: 240px;
+    height: 240px;
+}
+
+.item-title {
+    font-size: 18px;
+    color: #FF7193;
+}
+
+.item-description {
+    font-size: 14px;
+    text-align: center;
+    color: #FF7193;
+}
+
+.item-price {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    color: #FFA369;
+}
+
+.item-infos-buy {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.item-button-buy {
+    background: #FF7193;
+    border-radius: 0 5px 5px 0;
+    width: 85px;
+    height: 40px;
+    border: 0;
+    color: #FFFFFF;
+    font-size: 12px;
+    position: relative;
+    cursor: pointer;
+}
+
+.buttons {
+    display: flex;
+}
+
+.size {
+    width: 36px;
+    height: 36px;
+    border-radius: 100%;
+    background-color: #FFF4EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FF7193;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.size:hover {
+    background-color: #FF7193;
+    color: #FFF4EB;
+}
+
+.sizes {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}

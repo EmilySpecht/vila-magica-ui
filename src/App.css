@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+
+
+.cards {
+  background-image: url("./assets/background.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0 400px 0 400px;
+}
