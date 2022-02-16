@@ -1,0 +1,86 @@
+.header {
+    width: 100%;
+    height: 900px;
+}
+
+.presentation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.presentetion-text {
+    background: url("../../../assets/banner-gradients-1.svg") no-repeat center;
+    width: 800px;
+    height: 800px;
+    color: white;
+    text-align: left;
+    padding-left: 200px;
+}
+
+.title, .welcome, .text-explanation {
+    margin: 0 0 10px 0;
+    width: 500px;
+}
+
+.title {
+    margin-top: 300px;
+    font-size: 48px;
+}
+
+.welcome {
+    font-size: 24px;
+}
+
+.text-explanation {
+    font-size: 14px;
+}
+
+.presentation-examples {
+    background: url("../../../assets/banner-gradients-2.svg") no-repeat center;
+    width: 800px;
+    height: 800px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.frame1, .frame2 {
+    width: 235px;
+    height: 330px;
+    background-color: #FFFBF8;
+    box-shadow: 0 0 20px #FFDEC9;
+    border-radius: 5px;
+}
+
+.image1-banner {
+    background-image: url("../../../assets/markers-banner.png");
+    width: 100%;
+    height: 100%;
+}
+.image2-banner {
+    background-image: url("../../../assets/landscape-banner.png");
+    width: 100%;
+    height: 100%;
+}
+
+.frame1 {
+    transform: rotate(-10deg) translateY(50px);
+    padding: 10px;
+}
+
+.frame2 {
+    transform: rotate(10deg);
+    padding: 10px;
+}
+
+.button {
+    width: 300px;
+    height: 40px;
+    background-color: #7B61FF;
+    border: none;
+    border-radius: 5px;
+    color: #FFFFFF;
+    margin-top: 100px;
+}

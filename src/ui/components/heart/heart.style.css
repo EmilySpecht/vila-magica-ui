@@ -1,0 +1,63 @@
+:root {
+    --size-top: 0;
+}
+
+.heart {
+    width: 16px;
+    height: 13px;
+    position: absolute;
+    top: 8px;
+    left: 28px;
+    opacity: 0;
+}
+
+.circle:after, .circle:before {
+    content: '';
+    width: 9px;
+    height: 10px;
+    background-color: #ffa5bb;
+    border-radius: 100%;
+    position: absolute;
+}
+
+.circle:after {
+    left: 0;
+}
+
+.circle:before {
+    left: 7px;
+}
+
+.square {
+    width: 10px;
+    height: 10px;
+    background-color: #ffa5bb;
+    transform: rotate(45deg);
+    position: relative;
+    bottom: -4px;
+    left: 3px;
+}
+
+.heart-animation {
+    width: 16px;
+    height: 13px;
+    position: absolute;
+    top: 8px;
+    left: 34px;
+    animation: heart-button .6s linear;
+    opacity: 0;
+}
+
+@keyframes heart-button {
+    0% {
+        transform: scale(0);
+    }
+    60% {
+        transform: scale(2);
+        opacity: 30%;
+    }
+    100% {
+        transform: scale(4);
+        opacity: 10%;
+    }
+}

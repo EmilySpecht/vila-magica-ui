@@ -1,0 +1,26 @@
+.addition-button {
+    background: #FFFBF8;
+    border: 1px solid #FF7193;
+    box-sizing: border-box;
+    border-radius: 5px 0 0 5px;
+    height: 40px;
+    display: flex;
+    color: #FF7193;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    width: 65px;
+    font-size: 14px;
+}
+
+.decrease, .addition {
+    background: #FFFBF8;
+    border: none;
+    color: #FF7193;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.number-additioned {
+    width: 24px;
+}
